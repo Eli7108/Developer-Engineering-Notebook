@@ -5,6 +5,7 @@ body {
 header {
     font-size: 100%;
     background-color: rgb(218, 112, 214);
+    color: rgb(255, 240, 245);
     border: 10px solid rgb(186, 85, 211);
     border-top: 10px solid rgb(218, 112, 214);
     left: 0%;
