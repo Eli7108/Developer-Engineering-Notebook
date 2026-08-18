@@ -19,7 +19,6 @@ header {
     font-family: fantasy;
     font-size: 150%;
     color:rgb(210, 105, 30);
-    background-color: hidden;
     top: 10%;
     left: 0%;
     right: 0%;
@@ -27,7 +26,11 @@ header {
     text-align: center;   
 }
 
-div {
+a {
+    color: rgb(220, 20, 60);
+}
+
+section {
     background-color: rgb(255, 240, 245);
     color:rgb(72, 61, 139);
     font-size: 150%;
@@ -43,14 +46,46 @@ div {
     text-align: justify;
     word-spacing: 5%;
     border-left: 25px solid rgb(147, 112, 216);
-    border-top-left-radius: 15%;
-    border-bottom-left-radius: 10%;
-    border-top-right-radius: 7%;
-    border-bottom-right-radius: 7%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 
-a {
-    color: rgb(220, 20, 60);
+img {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    border-left: 25px solid rgb(147, 112, 216);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-right: 10%;
+    margin-left: 50%;
+    
+}
+
+article {
+    background-color: rgb(255, 240, 245);
+    color:rgb(72, 61, 139);
+    font-size: 150%;
+    width: 65%;
+    height: 50%;
+    font-family:fantasy;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    word-spacing: 5%;
+    border-left: 25px solid rgb(147, 112, 216);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 
 nav {
@@ -65,10 +100,6 @@ nav {
     text-align: center;
 }
 
-img {
-    float: right;
-    width: 25%;
-    height: 50%;
-    border-radius: 10%;
-    border: 5px solid rgb(147, 112, 216);
+#entry {
+    width: 70%;
 }
