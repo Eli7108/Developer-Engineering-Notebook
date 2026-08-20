@@ -52,7 +52,7 @@ section {
     border-bottom-right-radius: 20%;
 }
 
-img {
+#homeImg {
     position: absolute;
     width: 30%;
     height: auto;
@@ -63,7 +63,6 @@ img {
     border-bottom-right-radius: 20%;
     margin-right: 10%;
     margin-left: 50%;
-    
 }
 
 article {
@@ -102,4 +101,23 @@ nav {
 
 #entry {
     width: 70%;
+}
+
+#aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#aboutImg {
+    position: absolute;
+    width: 34.8%;
+    height: auto;
+    border-left: 25px solid rgb(147, 112, 216);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-right: 10%;
+    margin-left: 8%;
 }
