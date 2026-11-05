@@ -110,33 +110,64 @@ pre {
 }
 
 button {
+    background-color: rgb(221, 160, 221);
+    left: 0%;
+    top: 0%;
     font-size: 100%;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 10%;
-    padding: 1%;
+    border-color: rgb(221, 160, 221);
+    border-width: 10px;
+    padding: 1.35%;
     position: absolute;
+    transition: ease-in-out 0.5s;
 }
 
-.darkMode {
-    top: 0%;
-    right: 0%;
+img {
+    border: 10px solid rgb(186, 85, 211);
+    border-radius: 5%;;
+}
+
+table {
+    border: 10px solid rgb(186, 85, 211);
+    border-radius: 5%;
+    background-color:rgb(255, 240, 245);
+    color:rgb(72, 61, 139);
+    font-size: 150%;
+    left: 0;
+    right: 0;
+    font-family:fantasy;
+    padding: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+    word-spacing: 5%;
+}
+
+th {
+    border: 5px solid rgb(186, 85, 211);
+    border-radius: 5%;
+    padding: 1%;
+}
+
+td {
+    border: 5px solid rgb(186, 85, 211);
+    border-radius: 5%;
+    padding: 5%;
+}
+
+.darkModeBody {
     color: rgb(230, 230, 250);
     background-color: rgb(72, 61, 139);
     transition: ease-in-out 0.5s;
 }
 
-.darkMode2 {
-    top: 0%;
-    right: 0%;
+.darkModeSection {
     color: rgb(230, 230, 250);
     background-color: rgb(108, 100, 158);
     border-color: rgb(182, 149, 248);
     transition: ease-in-out 0.5s;
 }
 
-.darkMode3 {
-    top: 0%;
-    right: 0%;
+.darkModeHeader {
     background-color: rgb(135, 67, 133);
     color: rgb(255, 240, 245);
     border-color: rgb(134, 88, 147);
@@ -144,15 +175,45 @@ button {
     transition: ease-in-out 0.5s;
 }
 
-.darkMode4 {
+.darkModeNav {
     background-color: rgb(105, 74, 105);
     border-color: rgb(134, 88, 147);
     transition: ease-in-out 0.5s;
 }
 
-.darkMode5 {
+.darkModeLink {
     color:rgb(100, 149, 237);
     transition: ease-in-out 0.5s;
+}
+
+.darkModeButton {
+    color: rgb(230, 230, 250);
+    background-color:rgb(105, 74, 105);
+    border-color: rgb(105, 74, 105);
+    transition: ease-in-out 0.5s;
+}
+
+.filterWrapper {
+    flex-wrap: wrap;
+}
+
+.filterButton {
+    background-color: rgb(221, 160, 221);
+    font-size: 100%;
+    border-color: rgb(221, 160, 221);
+    border-width: 10px;
+    padding: 1.35%;
+    position: relative;
+    transition: ease-in-out 0.5s;
+}
+
+.filterContent {
+    display: none;
+    position: relative;
+    background-color: rgb(221, 160, 221);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 #aboutMe {

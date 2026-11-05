@@ -11,12 +11,12 @@
     <header>
         <h1>Projects</h1>
     </header>
-    <button onclick="darkModeButton()">Dark Mode</button>
     <br>
     <br>
     <br>
     <br>
     <nav>
+        <button onclick="darkModeToggle()">Dark Mode</button>
         <a href="journal.html">Weekly_Journal</a>
         <a href="ai-log.html">AI_Engineering_Log</a>
         <a href="index.html">Homepage</a>
@@ -27,9 +27,33 @@
     <br>
     <br>
     <br>
+    <p id="date"></p>
     <br>
     <br>
-    <section class="up" id="html", id="css", id="js">
+    <div class="filterWrapper">
+        <button class="filterButton">Filter</button>
+        <div class="filterContent">
+            <button id="all">All</button>
+            <button id="html">HTML</button>
+            <button id="css">CSS</button>
+            <button id="js">JavaScript</button>
+            <button id="py">Python</button>
+        </div>
+    </div>
+    <section class="up" data-category="html" data-category="css" data-category="js">
+        <h2>Developer Portfolio</h2>
+        <img src="">
+        <p>
+            This is the project you're currently viewing!
+            <br>
+            I made this to record any and all programming projects I make.
+        </p>
+        <div>
+            <p>HTML | CSS | JavaScript</p>
+        </div>
+    </section>
+    <br>
+    <section class="up" data-category="html" data-category="css" data-category="js">
         <h2>Fishers Lunch Menu</h2>
         <img src="">
         <p>This was a project I made for CS For Good 2025.</p>
@@ -38,16 +62,25 @@
         </div>
     </section>
     <br>
-    <section class="up" id="html", id="css">
-        <h2>Website Database Final Project Semester 1</h2>
-    </section>
-    <br>
-    <section class="up" id="py">
+    <section class="up" data-category="py">
         <h2>National Dex Program</h2>
+        <img src="images/National-Dex-Program-Screenshot.png" width="50%" height="50%">
+        <p>This was a project I made for a Website and Database Development class.</p>
+        <div>
+            <p>Python |</p>
+        </div>
     </section>
     <br>
-    <section class="up" id="html", id="css">
-        <h2>Project 2</h2>
+    <section class="up" data-category="html" data-category="css" data-category="js">
+        <h2>Fishers Student Exchange</h2>
+        <img src="">
+        <p>The project we chose to make for CS For Good is Fishers Student Exchange, an online 
+            marketplace for students within the city of Fishers to sell school supplies they 
+            no longer need to each other for a low price. This website can help students and parents 
+            save money on school supplies every year and encourage in-person interactions among students.</p>
+        <div>
+            <p>HTML | CSS | JavaScript</p>
+        </div>
     </section>
     <footer>
         <p>&copy; 2026 Eli Batipps. All rights reserved.</p>
